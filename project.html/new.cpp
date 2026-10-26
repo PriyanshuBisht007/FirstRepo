@@ -21,6 +21,5 @@ class doublylist{
 };
 int main(){
     doublylist ll;
-    ll node(2);
     node(3);
 }
