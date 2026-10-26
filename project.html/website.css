@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+   height: 15vh;
+   width: 100%; 
+   border: 2px solid black ;
+   border-radius: 10px;
+   display: flex;
+   margin: 10px;
+justify-content: space-between;
+}
+.logout{
+    margin: 5px;
+    font-size: large;
+    font: bolder;
+}
+.student-portal{
+    margin: 5px;
+}

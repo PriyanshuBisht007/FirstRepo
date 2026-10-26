@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 10px;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg,#0a0a0a,hsla(147, 76%, 60%, 0.99));
+  
+}
+.label{
+    border: 2px solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+}
+
+.forgotremember{
+    display: flex;
+}
+
+
+.login-button{
+    border: 1px solid;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+.register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.username input{
+    border-radius: 40px;
+    width: 100%;
+    height: 100%;
+    
+
+}
+.password input{
+    border-radius: 40px;
+     width: 100%;
+    height: 100%;
+}
+.username{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.password{
+   
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+}

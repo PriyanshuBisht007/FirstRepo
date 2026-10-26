@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <button id="playPauseButton">Play Audio</button>
+ <audio id="audioPlayer" src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20240912183739/chatbot-response.mp3"></audio>
+ <script>
+  const audioPlayer = document.getElementById('audioPlayer');
+  const playPauseButton = document.getElementById('playPauseButton');
+
+  playPauseButton.addEventListener('click', () => {
+   if (audioPlayer.paused) {
+    audioPlayer.play();  
+    playPauseButton.textContent = 'Pause Audio';  
+   } else {
+    audioPlayer.pause();  
+    playPauseButton.textContent = 'Play Audio';  
+   }
+  });
+ </script>
+</body>
+</html>
+  

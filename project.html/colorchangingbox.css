@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.description{
+    margin-top: 20vh;
+    font-size: 40px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh;
+    height: 20vh;
+    width: 30vh;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+#red{
+    background-color: red;
+}
+#blue{
+    background-color: blue;
+}
+#green{
+    background-color: green;
+}
+#grey{
+    background-color: grey;
+}

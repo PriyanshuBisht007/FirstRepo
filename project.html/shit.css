@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+}
+header{
+    background-color: rgb(198, 231, 236);
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+}
+.head{
+    margin: 30px;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+}
+.button{
+    background-color:rgb(87, 238, 87);
+    border-radius: 50px;
+    width: 8%;
+    height: 100%;
+}

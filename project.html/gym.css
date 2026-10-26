@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+/* Header */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    z-index: 1000;
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.gymname {
+    color: #e63946;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.other {
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+
+.other div:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* Main Section */
+.mainbox {
+    padding-top: 120px;
+    text-align: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.main {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.quote {
+    color: #457b9d;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.start {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.startbutton {
+    padding: 10px 20px;
+    background-color: orangered;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.explore {
+    padding: 10px 20px;
+    color: orangered;
+    background-color: transparent;
+    border: 2px solid orangered;
+    cursor: pointer;
+}
+
+/* Community Section */
+.secondbox {
+    font-size: 40px;
+    font-style: italic;
+    margin: 50px 0;
+}
+
+.lines {
+    color: #f1faee;
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Stats Section */
+.nos,
+.achievement {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 50px;
+}
+
+.nos div {
+    font-size: 50px;
+    color: red;
+}
+
+.achievement div {
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+/* Training Section */
+.training {
+    font-size: 50px;
+    margin: 80px 0 30px;
+    text-align: center;
+}
+
+.trainingboxes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.boxes {
+    width: 250px;
+    padding: 30px;
+    background-color: #302f2f;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(230, 57, 70, 0.2);
+    text-align: center;
+    cursor: pointer;
+}
+
+.boxes h3 {
+    margin-bottom: 15px;
+}
+
+/* Testimonials */
+.testimonials {
+    background-color: rgb(36, 34, 34);
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 50px;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.membersay {
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+
+.testlines {
+    background-color: rgb(41, 41, 181);
+    padding: 20px;
+    margin: auto;
+    max-width: 800px;
+    font-size: 18px;
+}
+
+.saidby {
+    margin-top: 15px;
+    color: red;
+    font-size: 16px;
+}
+
+/* Ending Section */
+.ending {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.lastwords {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.lastline {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.input_outer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+input,
+textarea {
+    width: 30rem;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+}
+
+textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: grey;
+}
+
+.last {
+    width: 31rem;
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 24px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
